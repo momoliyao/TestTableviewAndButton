@@ -15,6 +15,12 @@
 		3BB4285C1E601462003482FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BB4285A1E601462003482FC /* LaunchScreen.storyboard */; };
 		3BB428671E601462003482FC /* TestTableviewAndButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB428661E601462003482FC /* TestTableviewAndButtonTests.m */; };
 		3BB428721E601462003482FC /* TestTableviewAndButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB428711E601462003482FC /* TestTableviewAndButtonUITests.m */; };
+		3BB428891E601497003482FC /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB428801E601497003482FC /* UIView+Extension.m */; };
+		3BB4288A1E601497003482FC /* YYGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB428821E601497003482FC /* YYGroup.m */; };
+		3BB4288B1E601497003482FC /* ChooseRankView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB428841E601497003482FC /* ChooseRankView.m */; };
+		3BB4288C1E601497003482FC /* InputInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB428861E601497003482FC /* InputInfoCell.m */; };
+		3BB4288D1E601497003482FC /* SelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB428881E601497003482FC /* SelectCell.m */; };
+		3BB428901E6014A0003482FC /* PersonalCenterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB4288F1E6014A0003482FC /* PersonalCenterVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		3BB4286D1E601462003482FC /* TestTableviewAndButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTableviewAndButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BB428711E601462003482FC /* TestTableviewAndButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableviewAndButtonUITests.m; sourceTree = "<group>"; };
 		3BB428731E601462003482FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BB4287F1E601497003482FC /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		3BB428801E601497003482FC /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		3BB428811E601497003482FC /* YYGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYGroup.h; sourceTree = "<group>"; };
+		3BB428821E601497003482FC /* YYGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYGroup.m; sourceTree = "<group>"; };
+		3BB428831E601497003482FC /* ChooseRankView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseRankView.h; sourceTree = "<group>"; };
+		3BB428841E601497003482FC /* ChooseRankView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseRankView.m; sourceTree = "<group>"; };
+		3BB428851E601497003482FC /* InputInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputInfoCell.h; sourceTree = "<group>"; };
+		3BB428861E601497003482FC /* InputInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputInfoCell.m; sourceTree = "<group>"; };
+		3BB428871E601497003482FC /* SelectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectCell.h; sourceTree = "<group>"; };
+		3BB428881E601497003482FC /* SelectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectCell.m; sourceTree = "<group>"; };
+		3BB4288E1E6014A0003482FC /* PersonalCenterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalCenterVC.h; sourceTree = "<group>"; };
+		3BB4288F1E6014A0003482FC /* PersonalCenterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +123,18 @@
 				3BB428501E601462003482FC /* AppDelegate.m */,
 				3BB428521E601462003482FC /* ViewController.h */,
 				3BB428531E601462003482FC /* ViewController.m */,
+				3BB4288E1E6014A0003482FC /* PersonalCenterVC.h */,
+				3BB4288F1E6014A0003482FC /* PersonalCenterVC.m */,
+				3BB4287F1E601497003482FC /* UIView+Extension.h */,
+				3BB428801E601497003482FC /* UIView+Extension.m */,
+				3BB428811E601497003482FC /* YYGroup.h */,
+				3BB428821E601497003482FC /* YYGroup.m */,
+				3BB428831E601497003482FC /* ChooseRankView.h */,
+				3BB428841E601497003482FC /* ChooseRankView.m */,
+				3BB428851E601497003482FC /* InputInfoCell.h */,
+				3BB428861E601497003482FC /* InputInfoCell.m */,
+				3BB428871E601497003482FC /* SelectCell.h */,
+				3BB428881E601497003482FC /* SelectCell.m */,
 				3BB428551E601462003482FC /* Main.storyboard */,
 				3BB428581E601462003482FC /* Assets.xcassets */,
 				3BB4285A1E601462003482FC /* LaunchScreen.storyboard */,
@@ -275,7 +305,13 @@
 			files = (
 				3BB428541E601462003482FC /* ViewController.m in Sources */,
 				3BB428511E601462003482FC /* AppDelegate.m in Sources */,
+				3BB428891E601497003482FC /* UIView+Extension.m in Sources */,
+				3BB4288C1E601497003482FC /* InputInfoCell.m in Sources */,
 				3BB4284E1E601462003482FC /* main.m in Sources */,
+				3BB4288A1E601497003482FC /* YYGroup.m in Sources */,
+				3BB4288B1E601497003482FC /* ChooseRankView.m in Sources */,
+				3BB428901E6014A0003482FC /* PersonalCenterVC.m in Sources */,
+				3BB4288D1E601497003482FC /* SelectCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
